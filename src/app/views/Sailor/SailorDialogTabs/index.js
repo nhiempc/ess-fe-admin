@@ -1,0 +1,17 @@
+export { default as PersonalInfor } from "./PersonalInfor";
+export { default as CurrentTrain } from "./CurrentTrain";
+export { default as PassportAndCrewBook } from "./PassportAndCrewBook";
+export { default as Relatives } from "./Relatives";
+export { default as DependentPerson } from "./DependentPerson";
+export { default as Experience } from "./Experience";
+export { default as UnitInfor } from "./UnitInfor";
+export { default as InternalCertificate } from "./InternalCertificate";
+export { default as CertificateShipOwner } from "./CertificateShipOwner";
+export { default as DocumentCertificate } from "./DocumentCertificate";
+export { default as InterviewFeedback } from "./InterviewFeedback";
+export { default as HealthReport } from "./HealthReport";
+export { default as Training } from "./Training";
+export { default as AdditionalTrainingNeeds } from "./AdditionalTrainingNeeds";
+export { default as Comment } from "./Comment";
+export { default as CrewFeedback } from "./CrewFeedback";
+export { default as HistorySeafaring } from "./HistorySeafaring";

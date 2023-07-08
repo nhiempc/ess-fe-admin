@@ -1,0 +1,15 @@
+.filter-container {
+	background-color: #f9fafb;
+	border-radius: 0.25rem;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	padding: 1.25rem;
+	display: grid;
+	grid-template: 60px / repeat(4, minmax(200px, 1fr));
+	gap: 15px;
+	align-items: end;
+}
+
+.btn-action {
+	justify-self: end;
+	grid-column: 4 / 5;
+}

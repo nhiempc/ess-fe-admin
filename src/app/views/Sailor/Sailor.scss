@@ -1,0 +1,120 @@
+:root{
+    --white-color: #fff;
+    --border-gray: 1px solid #DBDBDB;
+    --primary-color: rgb(42, 128, 200);
+}
+.sailor__name{
+    color: var(--primary-color);
+    font-weight: 500;
+    overflow: hidden;
+}
+.border__left--gray{
+    border-left: var(--border-gray);
+}
+.border__right--gray{
+    border-right: var(--border-gray);
+}
+.border__bottom--gray{
+    border-bottom: var(--border-gray);
+}
+.border__top--white{
+    border-top: var(--border-white);
+}
+.text--center{
+    text-align: center;
+}
+.header--small{
+    padding: 5px 10px;
+}
+.cell--padding{
+    padding: 10px 0;
+}
+.header__text{
+    background-color: var(--primary-color);
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dialog__body{
+    height: 600px;
+    overflow-y: auto;
+}
+
+.direction-row{
+    flex-direction: row;
+}
+
+  .custom-file-upload {
+    // width: 18%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    // display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    &:hover{
+        border: 1px solid var(--primary-color)
+    }
+  }
+.cursor-pointer{
+    cursor: pointer;
+}
+.d-flex{
+    display: flex;
+}
+.dotted{
+    .MuiInputBase-root{
+        .MuiInputBase-input{
+            background-attachment: local;
+            background-image:
+                linear-gradient(to right, transparent 10px, transparent 10px),
+                linear-gradient(to left, transparent 10px, transparent 10px),
+                repeating-linear-gradient(transparent, transparent 30px, #949494 30px, transparent 31px);
+            line-height: 31px;
+            &:focus{
+                background-image:
+                linear-gradient(to right, transparent 10px, transparent 10px),
+                linear-gradient(to left, transparent 10px, transparent 10px),
+                repeating-linear-gradient(transparent, transparent 30px, #7467ef 30px, transparent 31px);
+            }
+            &:hover{
+                background-image:
+                linear-gradient(to right, transparent 10px, transparent 10px),
+                linear-gradient(to left, transparent 10px, transparent 10px),
+                repeating-linear-gradient(transparent, transparent 30px, #000 30px, transparent 31px);
+            }
+        }
+    }
+}
+.text-info{
+    color: #2A80C8 !important;
+}
+
+legend {
+    margin-left: 90%;
+}
+.inforCurriculumn {
+    padding: 16px;
+}
+.inforCurriculumn table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.inforCurriculumn table td, .inforCurriculumn table th{
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+.inforCurriculumn table th h3{
+    margin: 0;
+    padding: 8px 0;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.text-left{
+    text-align: left;
+}
+.bg-yellow{
+    background-color: yellow;
+}

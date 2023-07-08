@@ -1,0 +1,9 @@
+.position-Select-Btn {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+}
+
+.position-Select-label{
+    margin-right: 30px;
+}

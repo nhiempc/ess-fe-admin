@@ -1,0 +1,313 @@
+.MuiTableRow-root .MuiTableCell-head {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-root {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.MuiTableRow-root .MuiTableCell-paddingNone {
+    padding: 0px;
+}
+
+.MuiIconButton-root {
+    cursor: pointer;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.asset_department {
+    background-color: #fff;
+    padding: 8px;
+    height: auto;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.none_wrap {
+    white-space: nowrap !important;
+}
+
+.validator-form-scroll-dialog {
+    overflow-y: auto !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.logo-login {
+    max-width: 400px !important;
+}
+
+.logo-login img {
+    width: 100% !important;
+}
+
+// .logo-menu{
+//     max-width: 100px !important;
+// }
+// .logo-menu img{
+//     width: 100% !important;
+// }
+
+.overflowX-hidden {
+    overflow-x: hidden;
+}
+
+.MuiCardContent-root:last-child{
+    padding-bottom: 12px !important;
+}
+.overflowY-hidden {
+    overflow-y: hidden !important;
+}
+
+.titleSailor {
+    height: 40px;
+    border-radius: 15px 0 0 0 !important;
+    background: #FFC14D;
+    width: 100%;
+    color: #000000;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 700;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-curriculumn {
+    margin-bottom: 8px;
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    width: 90% !important;
+    border-radius: 15px;
+}
+
+.MuiTypography-body1{
+    background-color: #FFFFFF;
+    border-radius: 15px 0 0 15px;
+}
+.sailor-dialog .MuiDialog-paper {
+    background-color: #1377D3 !important;
+}
+.colorRed {
+    color: red;
+}
+.MuiDialogTitle-root{
+    background-color: #FFC14D !important;
+}
+.MuiIconButton-root.view{
+    color:#07ffa0fa !important;
+}
+.MuiIconButton-root.print{
+    color:#e42cff !important;
+}
+
+.color-white{
+    color: #FFFFFF !important;
+}
+.before-title{
+    border-left: 6px solid #FFC250;
+    align-self: center;
+}
+.layout2 .topbar{
+    padding: 0;
+    height: 70px
+}
+.horizontal-nav ul.menu > li{
+    padding: 0 16px;
+}
+
+.color-main{
+    color: #0758A3 !important;
+}
+.MuiTab-root{
+    border-radius: 5px !important;
+}
+
+.WithStyles\(ForwardRef\(Tabs\)\)-indicator-144{
+    display: none !important;
+}
+.MuiDialog-container{
+    height: 102% !important;
+}
+.MuiButton-contained{
+    min-width: 120px !important;
+    height: 36px !important;
+    border: 1px solid #1377D3 !important;
+    padding: 8px 16px !important;
+}
+
+.MuiButton-containedPrimary{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.delete-button{
+    padding: 8px;
+    font-weight: 700;
+    border-radius: 4px;
+    background-color: #FFFFFF !important;
+    border: 1px solid #F2424D !important; 
+    color: #AE1800 !important
+}
+
+.title-curriculumn {
+    flex-basis: 0 !important;
+}
+
+.container-curriculumn{
+    border-radius: 10px !important;
+    width: 95% !important;
+    height: 100% !important;
+    background-color: #E4E8F2 !important;
+}
+
+.container-curriculumn .MuiSvgIcon-root{
+    margin: 8px 4px 0 0 !important;
+}
+
+.select-curriculumn .MuiSvgIcon-root{
+    display: none !important
+}
+.table-cv__component{
+    border: 1px solid black;
+    text-align: center;
+}
+.table-cv__columnNotFirst{
+    border-left: 1px solid black
+}
+.table-cv__row{
+    border-bottom: 1px solid black;
+    align-items: center;
+    padding: 4px 0;
+}
+.table-cv__rowFirst{
+    font-style: italic;
+    font-weight: 700;
+    border-bottom: 1px solid black
+}
+.cv-table__checkbox{
+    width: 20px;
+    height: 30px;
+    margin: 0 4px;
+    border: 1px solid rgb(28, 11, 11);
+    border-style: double;
+}
+.MuiAutocomplete-inputRoot .MuiAutocomplete-input{
+    color: #1377D3;
+    transform: translate(0, 5px) scale(1)
+}
+.select-curriculumn .MuiInputLabel-formControl {
+    color: #1377D3;
+    transform: translate(0, 15px) scale(1) !important
+}
+.select-curriculumn .MuiInputLabel-root.Mui-focused{
+    transform: translate(0, -3px) scale(0) !important
+}
+.select-curriculumn .MuiInputLabel-shrink{
+    transform: translate(0, 1.5px) scale(0) !important;
+}
+.select-curriculumn .MuiAutocomplete-inputRoot{
+    padding: 0 !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+}
+.select-curriculumn .MuiInput-underline:before{
+    display: none;
+}
+.select-curriculumn{
+    width: 50%;
+}
+
+.curriculumn-dialog .MuiDialog-paper {
+    height: 100%;
+    background-color: #1377D3 !important;
+    align-items: center;
+}
+
+.TabPanelSailor,
+.panel-sailor {
+    background-color: #FFFFFF;
+    overflow-y: auto;
+    width: 100% !important;
+    border-radius: 15px 0 0 15px;
+    .MuiBox-root {
+        padding: 0 !important;
+    }
+}
+
+.inforCurriculumn{
+    height: 69vh;
+}
+
+.table-cv__document--title{
+    padding-left: 8px;
+    text-align: left;
+}
+
+.table-cv__intro{
+    color: #00B050 !important;
+    font-weight: 500;
+    font-size: 16px;
+}
+.table-cv__intro p{
+    margin: 4px 0;
+}
+
+.sailor-dialog .MuiCard-root{
+    border-radius: 0 0 0 15px !important;
+}
+.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #196EB3 !important;
+}
+
+.MuiCardHeader-root{
+    height: 57px;
+    font-size: 1.25rem;
+    color: #0071BC;
+    background-color: rgba(19, 119, 211, 0.08) !important;
+}
+
+.cardHeader-table .MuiCardHeader-content {
+    flex: 0 0 120px;
+    color: #666666 !important;
+}
+
+.MuiCardHeader-action{
+    flex: 9 !important;
+}
+
+.MuiCardHeader-root.cardHeader-table{
+    height: 54px;
+    font-size: 1.25rem;
+    color: #0071BC;
+    border-bottom: 1px solid #ccc;
+}
+
+.MuiGrid-root.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.layout-contained .container{
+    max-width: 1920px;
+}
+.m-50{
+    margin: 50px;
+}
+.MuiTab-textColorInherit{
+    opacity: 1 !important;
+}
+
+.MuiTableRow-root .MuiTableCell-paddingNone{
+    width: 0;
+}
